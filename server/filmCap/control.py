@@ -122,7 +122,7 @@ class stepperControl:
         dir=False
         GPIO.output(self.dir_pin, dir)
         GPIO.output(self.pulse_pin, False)
-        GPIO.output(self.ms1_pin, True)
+        GPIO.output(self.ms1_pin, False)
         GPIO.output(self.ms2_pin, False)
         GPIO.output(self.sleep_pin, False)
         GPIO.output(self.reset_pin, True)

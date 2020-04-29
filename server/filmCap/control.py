@@ -227,7 +227,7 @@ class MotorDriver(multiprocessing.Process):
     #a very simple class designed to stick frame-advance in another
     #process during captures, so a different core can handle it and it
     #won't delay photography - or vice versa
-    pulse_pin = 17
+    pulse_pin = 25
     half_pulse = .0008
     steps_per_rev = 200
     def __init__(self, cap_event, exit_event):

@@ -6,10 +6,10 @@ loglevel=logging.DEBUG
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - $(levelname)s - %(message)s')
 dir_pin = 18
 ms1_pin = 22
-ms2_pin = 23
-sleep_pin = 27
+ms2_pin = 24
+sleep_pin = 21
 reset_pin = 15
-pulse_pin = 17
+pulse_pin = 25
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(dir_pin, GPIO.OUT)

@@ -104,10 +104,10 @@ class stepperControl:
     #stepper motor control pins
     dir_pin = 18
     ms1_pin = 22
-    ms2_pin = 23
-    sleep_pin = 27
+    ms2_pin = 24
+    sleep_pin = 21
     reset_pin = 15
-    pulse_pin = 17
+    pulse_pin = 25
     half_pulse = .001 #for frame advance
     steps_per_rev = 200 #also change for MotorDriver class below
     
